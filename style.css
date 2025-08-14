@@ -1,0 +1,194 @@
+/* Deafult reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+nav {
+  background: #e7efc7;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  /* font-family: "Roboto Condensed", sans-serif; */
+ 
+}
+.logo h2{
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 40px;
+}
+.logo i {
+  font-size: 30px;
+}
+ul {
+  display: flex;
+  /* gap: 30px; */
+}
+li {
+  list-style: none;
+  word-spacing: 30px;
+  
+}
+a {
+  /* text-decoration: none; */
+  color: #b0a8a8;
+}
+
+.hero {
+  text-align: center;
+  font-size: 80px;
+  color: #000;
+  letter-spacing: 20px;
+  background-attachment: fixed;
+}
+/*content style*/
+.content {
+  background: #3b3b1a;
+  padding: 100px 0;
+  color: #fff;
+  text-align: center;
+  background-image: url(/jason/asset/background.png);
+  font-size: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.content p {
+  padding: 3%;
+  line-height: 1.5;
+  font-size: 25px;
+  /* background-color: #fff; */
+  text-align: center;
+  word-spacing: 5px;
+  background-attachment: fixed;
+}
+/*content-cards styles*/
+.content-cards {
+  background: #e7efc7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+  padding: 100px 0;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    background-attachment: fixed;
+}
+
+.img-container {
+    position: relative;
+    width: 400px;
+    background-attachment: fixed;
+}
+
+.img-container img {
+    width: 120%;
+    height: 90vh;
+    border-radius: 45px;
+    background-attachment: fixed;
+}
+
+.text-omarlay{
+    position: absolute;
+    top: 300px;
+    left: 170px;
+    color: #9d2222;
+    font-size: 45px;
+    background-attachment: fixed;
+}
+
+.text-omarlay a {
+    text-decoration: underline;
+    background-attachment: fixed;
+}
+
+.fourth-row {
+  background-image: url(/jason/asset/Mylove.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.reg {
+  text-align: center;
+  font-size: 43px;
+  color: #fff;
+  padding: 4%;
+}
+.describe {
+  text-align: center;
+  color: #fff;
+  padding: 3%;
+  font-size: 23px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn :hover{
+    color: rgb(64, 64, 65);
+}
+
+.registry {
+  text-align: center;
+  color: #fff;
+  background-color: #919688ef;
+  padding: 25px;
+  font-size: 17px;
+  width: 45%;
+  border: none;
+  border-radius: 45px;
+  margin-bottom: 15px;
+}
+.down-part{
+    background-image: url(/jason/asset/tissue\ flower.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* justify-content: center; */
+}
+.jen{
+color:#000;
+text-align: center;
+padding: 2%;
+
+}
+.date{
+    color: #fff;
+    text-align: center;
+padding: 2%;
+border: none;
+/* border-radius: 45px; */
+justify-content: center;
+}
+.btng{
+    justify-content: center;
+    display: flex;
+}
+.btns{
+    justify-content: center;
+    display: flex;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.btnc {
+    color: rgb(7, 7, 240);
+}

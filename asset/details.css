@@ -1,0 +1,342 @@
+/* Deafult reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+  }
+  nav {
+background: #e7efc7;
+display: flex;
+justify-content: space-between;
+text-align: center;
+padding: 20px 40px;
+background-color:  transparent rgba(128, 128, 128, 0);
+}
+
+.logo {
+display: flex;
+align-items: center;
+/* font-family: "Roboto Condensed", sans-serif; */
+
+}
+.logo h2{
+font-family: "Roboto Condensed", sans-serif;
+font-size: 40px;
+}
+.logo i {
+font-size: 30px;
+}
+ul {
+display: flex;
+/* gap: 30px; */
+}
+li {
+list-style: none;
+word-spacing: 30px;
+
+}
+a {
+/* text-decoration: none; */
+color: #b0a8a8;
+}
+.hero{
+    background-image: url(the\ roof\ \(2\).png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero h1{
+font-size: 48px;
+/* background: rgba(0,0,0.4); */
+padding: 10px 20px;
+color: #fff;
+}
+.invite-section{
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 60px 30px;
+    margin: 40px auto;
+    max-width: 700px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.rsvp-button{
+    
+    text-align: center;
+    color: #121010;
+    background-color: #e8eae5ef;
+    padding: 30px;
+    margin: 25px;
+    font-size: 17px;
+    width: 80%;
+    border: none;
+    border-radius: 45px;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.rsvp-button:hover{
+    transition: ease-in-out 0.3s;
+background-color: aqua;
+}
+
+.image-section{
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;    
+}
+.image-section img{
+    width: 700px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+
+.card-container{
+    display: flex;
+    flex-wrap:wrap ;
+    margin: 50px;
+    gap: 30px;
+    /* max-width: 1200px; */
+    justify-content: center;
+    align-items: center;
+    
+}
+.card{
+    background-color: #d6dfe7;
+    padding: 50px 60px;
+    border-radius: 8px;
+    flex: 1 1 500px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    font-size: 1.2rem;
+    height: 60vh;
+    line-height: 1.8;
+}
+.label{
+    font-weight: bold;
+    margin-bottom:4px ;
+    font-size: 1.25rem;
+    margin-top: 10px;
+}
+.content{
+    margin-bottom: 21px;
+}
+@media(max-width:768px) {
+    .card-container{
+        flex-direction: column;
+    }
+}
+.hero2{
+    background-image: url(the\ green\ floor\ \(4\).png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero2 h1{
+    font-size: 32px;
+    padding: 10px 20px;
+    color: #fff;
+    }
+  .container2{
+    display: flex;
+    max-width: 1100px;
+    margin: 40px auto;
+    /* gap: 40px; */
+    align-items: center;
+    padding: 0 20px;
+    justify-content: center;
+  } 
+  .text-box{
+    flex: 1;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    background-color: rgb(207, 199, 199);
+    padding: 180px 20px;
+    text-align: center;
+  }
+  .image-box{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  .image-box img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  @media(max-width: 768px){
+    .container2{
+        flex-direction: column;
+        text-align: center;
+    }
+    .image-box{
+        margin-top: 20px;
+    }
+  }
+  /*Two-column layout*/
+  .contain{
+    display: flex;
+    max-width: 1100px;
+    margin: 40px auto;
+    /* gap: 40px; */
+    align-items: center;
+    padding: 0 20px;
+
+  }
+  .img-section{
+    max-width: 100%;
+    border-radius: 5px;
+    flex: 1;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: center;
+  }
+  .img-section img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  .text-sec{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    background-color: rgb(219, 210, 210);
+    padding: 180px 40px;
+    max-width: 500px;
+    box-shadow: #282727;
+  }
+  @media(max-width: 768px){
+    .contain{
+        flex-direction: column;
+        text-align: center;
+    }
+    .img-section{
+        margin-top: 20px;
+    }
+  }
+  .fourth-row {
+    background-image: url(/jason/asset/Mylove.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .reg {
+    text-align: center;
+    font-size: 43px;
+    color: #fff;
+    padding: 4%;
+  }
+  .describe {
+    text-align: center;
+    color: #fff;
+    padding: 3%;
+    font-size: 23px;
+  }
+  .btn{
+      display: flex;
+      justify-content: center;
+  }
+  .btn :hover{
+      color: rgb(64, 64, 65);
+  }
+  .registry {
+  text-align: center;
+  color: #fff;
+  background-color: #919688ef;
+  padding: 25px;
+  font-size: 17px;
+  width: 45%;
+  border: none;
+  border-radius: 45px;
+  margin-bottom: 15px;
+}
+.down-part{
+    background-image: url(/jason/asset/tissue\ flower.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* justify-content: center; */
+}
+.jen{
+color:#000;
+text-align: center;
+padding: 2%;
+
+}
+.date{
+    color: #fff;
+    text-align: center;
+padding: 2%;
+border: none;
+/* border-radius: 45px; */
+justify-content: center;
+}
+.btng{
+    justify-content: center;
+    display: flex;
+}
+.btns{
+    justify-content: center;
+    display: flex;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.btnc {
+    color: rgb(7, 7, 240);
+}
+
+  .down-part{
+      background-image: url(/jason/asset/tissue\ flower.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      /* justify-content: center; */
+  }
+  .jen{
+  color:#000;
+  text-align: center;
+  padding: 2%;
+  
+  }
+  .date{
+      color: #fff;
+      text-align: center;
+  padding: 2%;
+  border: none;
+  /* border-radius: 45px; */
+  justify-content: center;
+  }
+  .btng{
+      justify-content: center;
+      display: flex;
+  }
+  .btns{
+      justify-content: center;
+      display: flex;
+      display: flex;
+      /* justify-content: center; */
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+  }
+  .btnc {
+      color: rgb(7, 7, 240);
+  }
+  
