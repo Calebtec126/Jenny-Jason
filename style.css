@@ -53,7 +53,7 @@ a {
   padding: 100px 0;
   color: #fff;
   text-align: center;
-  background-image: url(/jason/asset/background.png);
+  background-image: url(/asset/background.png);
   font-size: 80px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -117,7 +117,7 @@ a {
 }
 
 .fourth-row {
-  background-image: url(/jason/asset/Mylove.png);
+  background-image: url(/asset/Mylove.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -156,7 +156,7 @@ a {
   margin-bottom: 15px;
 }
 .down-part{
-    background-image: url(/jason/asset/tissue\ flower.png);
+    background-image: url(/asset/tissue\ flower.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
